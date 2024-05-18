@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+@import url('./style/fonts.css');
+
+
+@layer components{
+  .align-content{
+      @apply mx-auto max-w-[1110px] p-0
+  }
+  .bg-orang{
+      @apply bg-customOrange
+  }
+  .hover-orang{
+    @apply bg-hoverOrange
+}
+}
+

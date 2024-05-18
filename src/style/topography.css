@@ -1,0 +1,56 @@
+.navlinks{
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 1.4285714626312256px;
+text-align: left;
+
+}
+
+.section-title{
+font-size: 56px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 2px;
+text-align: left;
+}
+.p{  
+     font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.section-tit{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    letter-spacing: 2px;
+    text-align: left;
+
+}
+
+.bgorange{
+    background-color: #D87D4A;
+}
+.text-orang{
+    color: #D87D4A;
+}
+
+.bgimg{
+    background-image: url('../assets/home/desktop/pattern-circles.svg');
+    background-repeat: no-repeat;
+    
+}
+
+.speaker-bg{
+    background-image: url('../assets/home/desktop/image-speaker-zx7.jpg');
+
+}
