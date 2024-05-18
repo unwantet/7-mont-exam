@@ -7,6 +7,7 @@ export default function MainLayout() {
   const location = useLocation();
   
   const isHome = location.pathname === "/"; 
+  const checkout = location.pathname === "/checkout";
 
   return (
     <>
@@ -15,7 +16,7 @@ export default function MainLayout() {
         <Outlet />
       </main>
       <footer >
-        <AudioContainer/>
+        {!checkout && <AudioContainer/>}
         <Footer />
       </footer>
     </>

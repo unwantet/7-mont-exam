@@ -9,7 +9,13 @@ import { useFetch } from "../hooks/useFetch";
 
 export default function SingleProduct() {
     const { id } = useParams()
-    const { data } = useFetch(`http://localhost:3000/products?id=${id}`);
+    const { data,isPending , error } = useFetch(`http://localhost:3000/products?id=${id}`);
+    if (isPending) {
+      return <span className="ml-[650px] w-20 h-20 loading loading-spinner loading-lg"></span>;
+    }
+    if (error) {
+      return <Error/>;
+    }
     
     
     return (

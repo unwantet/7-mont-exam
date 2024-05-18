@@ -11,6 +11,6 @@ export const FormatPrice = (price) => {
     const dollarAmount = new Intl.NumberFormat('en-US', {
         currency: 'USD',
         style: 'currency',
-    }).format((price / 100 ).toFixed())
+    }).format((price).toFixed())
     return dollarAmount
 }

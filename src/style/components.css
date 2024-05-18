@@ -1,3 +1,17 @@
 .bg-img{
     background-image: url("../assets/home/desktop/image-hero.jpg");
 }
+
+.checkout-bg{
+    background-color: #f2f2f2;
+}
+
+.login-bg{
+    background: rgb(207,149,68);
+    background: radial-gradient(circle, rgba(207,149,68,0.4459033613445378) 37%, rgba(31,24,29,0.364670868347339) 100%);
+}
+
+.register-bg{
+    background: rgb(125,255,0);
+background: radial-gradient(circle, rgba(125,255,0,0.28904061624649857) 23%, rgba(54,6,40,0.364670868347339) 100%);
+}

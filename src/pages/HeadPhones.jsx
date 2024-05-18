@@ -3,11 +3,18 @@ import AdProducts from "../components/AdProducts";
 import CategoryList from "../components/CategoryList";
 import CategoryReverse from "../components/CategoryReverse";
 import { useFetch } from "../hooks/useFetch";
+import Error from "./Error";
 
 export default function HeadPhones() {
-  const { data } = useFetch(
+  const { data , isPending , error} = useFetch(
     "http://localhost:3000/products?category=headphones"
   );
+  if (isPending) {
+    return <span className="ml-[650px] w-20 h-20 loading loading-spinner loading-lg"></span>;
+  }
+  if (error) {
+    return <Error/>;
+  }
   const sortedData = data ? [...data].sort((a, b) => b.new - a.new) : [];
 
   return (

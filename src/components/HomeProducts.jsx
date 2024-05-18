@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/topography.css";
 
 export default function HomeProducts() {
@@ -17,19 +18,19 @@ export default function HomeProducts() {
               Upgrade to premium speakers that are phenomenally built to deliver
               truly remarkable sound.
             </p>
-            <button className="bg-black hover:bg-gray-800 min-w-[160px] btn rounded-none max-w-40 border-0 text-white font-semibold text-xs">
+            <Link to='/product/6' className="bg-black hover:bg-gray-800 min-w-[160px] btn rounded-none max-w-40 border-0 text-white font-semibold text-xs">
               SEE PRODUCT
-            </button>
+            </Link>
           </div>
         </div>
       </div>
       <div className="mt-12 min-h-[320px] pt-28 pl-24 speaker-bg rounded-xl">
         <div>
 
-            <h1 className="text-black section-tit mb-8">ZX7 SPEAKER</h1>
-            <button className="bg-black hover:bg-gray-800 min-w-[160px] btn rounded-none max-w-40 border-0 text-white font-semibold text-xs">
+            <h1 className=" text-black section-tit mb-8">ZX7 SPEAKER</h1>
+            <Link to='/product/5' className="border font-bold border-black hover:text-white hover:bg-gray-800 min-w-[160px] btn rounded-none max-w-40  font-semibold text-xs">
               SEE PRODUCT
-            </button>
+            </Link>
         </div>
       </div>
       <div className="min-h-[320px] flex gap-8 mt-12">
@@ -37,9 +38,9 @@ export default function HomeProducts() {
             <div className="bg-base-300 w-full rounded-xl pt-28 pl-24">
 
             <h1 className="text-black section-tit mb-8">YX1 EARPHONES</h1>
-            <button className="bg-black hover:bg-gray-800 min-w-[160px] btn rounded-none max-w-40 border-0 text-white font-semibold text-xs">
+            <Link to='/product/1' className="border font-bold border-black hover:text-white hover:bg-gray-800 min-w-[160px] btn rounded-none max-w-40  font-semibold text-xs">
               SEE PRODUCT
-            </button>
+            </Link>
         </div>
             
       </div>
