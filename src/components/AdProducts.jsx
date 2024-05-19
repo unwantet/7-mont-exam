@@ -15,7 +15,7 @@ export default function AdProducts() {
             id:1,
             size:'h-[284px]',
             name:"HEADPHONES",
-            image:"http://localhost:5173/src/assets/home/product/Group%2015.png",
+            image:"/src/assets/home/product/Group%2015.png",
             link:'/headphones'
         },
         {
@@ -23,14 +23,14 @@ export default function AdProducts() {
             size:'h-[276px]',
             name:"SPEAKERS",
             link:'/speakers',
-            image:"http://localhost:5173/src/assets/home/product/Group%2014.png"
+            image:"/src/assets/home/product/Group%2014.png"
         },
         {
             id:3,
             size:'h-[263px]',
             name:"EARPHONES",
             link:'/earphones',
-            image:"http://localhost:5173/src/assets/home/product/Group%206%20(1).png"
+            image:"/src/assets/home/product/Group%206%20(1).png"
         }
     ]
     

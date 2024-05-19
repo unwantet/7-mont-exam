@@ -17,7 +17,7 @@ export default function AudioContainer() {
           best place to buy your portable audio equipment.
         </p>
       </div>
-      <img src="http://localhost:5173/src/assets/shared/desktop/image-best-gear.jpg" alt="image-best-gear" className=" rounded-xl" />
+      <img src="/src/assets/shared/desktop/image-best-gear.jpg" alt="image-best-gear" className=" rounded-xl" />
     </div>
   );
 }

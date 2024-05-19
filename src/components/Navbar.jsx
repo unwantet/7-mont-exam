@@ -29,7 +29,7 @@ export default function Navbar({ bgimg }) {
       <div className="navbar align-content border-b-2 border-gray-700 h-24">
         <div className="navbar-start">
           <img
-            src="http://localhost:5173/src/assets/home/audiophile.svg"
+            src="/src/assets/home/audiophile.svg"
             alt="logo"
           />
         </div>

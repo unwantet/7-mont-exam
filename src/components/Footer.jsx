@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="bg-black">
       <div className="align-content pt-[75px] pb-12">
         <div className="flex justify-between">
-          <img src="http://localhost:5173/src/assets/home/audiophile.svg" />
+          <img src="/src/assets/home/audiophile.svg" />
           <div className="flex gap-[34px]">
             <NavLinks />
           </div>
@@ -25,9 +25,9 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex gap-4">
-            <img src="http://localhost:5173/src/assets/shared/desktop/icon-facebook.svg" alt=""  className="cursor-pointer" />
-            <img src="http://localhost:5173/src/assets/shared/desktop/icon-twitter.svg" alt="" className="cursor-pointer" />
-            <img src="http://localhost:5173/src/assets/shared/desktop/icon-instagram.svg" alt="" className="cursor-pointer" />
+            <img src="/src/assets/shared/desktop/icon-facebook.svg" alt=""  className="cursor-pointer" />
+            <img src="/src/assets/shared/desktop/icon-twitter.svg" alt="" className="cursor-pointer" />
+            <img src="/src/assets/shared/desktop/icon-instagram.svg" alt="" className="cursor-pointer" />
           </div>
         </div>
 
